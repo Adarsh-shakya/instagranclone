@@ -1,0 +1,52 @@
+.Home{
+    height: 648px;
+    width: 100%;
+    border: 2px solid green;
+    
+}
+.upperText{
+    margin-top: 7px;
+}
+.image img{
+    width: 100px;
+    margin: 30px;
+}
+input{
+    width: 90%;
+    height: 35px;
+    padding-left: 10px;
+    border-radius: 10px;
+    margin: 5px;
+    border: 1px solid gainsboro;
+}
+
+.addbookbtn{
+    width: 80%;
+    border-radius: 50px;
+    border: none;
+    background-color: blue;
+    color: aliceblue;
+    
+    height: 30px;
+    margin: 10px;
+}
+ .addbookbtn:hover{
+    cursor: pointer;
+    width: 78%;
+    font-size: 17px;
+ }
+.midletext{
+    margin-bottom: 170px;
+}
+
+.createbutton{
+    width: 300px;
+    border-radius: 50px;
+    border: 2px solid blue;
+    color: blue;
+    height: 30px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
