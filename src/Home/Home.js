@@ -10,6 +10,7 @@ const Home = () => {
     oldpassword:'',
     newpassword:''
   })
+  axios.defaults.withCredentials = true;
  
   const handleInput = (event)=>{
     setPost({...post,[event.target.name]: event.target.value})
