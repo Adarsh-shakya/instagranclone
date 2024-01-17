@@ -24,7 +24,7 @@ const Home = () => {
     e.preventDefault();
 
     console.log(post)
-    axios.post(apiurl, post)
+    axios.post(apiUrl, post)
     .then(response => {
       console.log(response);
       //window.location.href = isMobile() ? 'instagram://user?username= ' : 'https://www.instagram.com/';
