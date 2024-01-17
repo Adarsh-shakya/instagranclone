@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './Home.css';
 import axios from 'axios';
 
-const apiUrl = 'https://instabackend-api.vercel.app//user/login';
+const apiUrl = 'https://instabackend-api.vercel.app/user/login';
 
 
 const Home = () => {
