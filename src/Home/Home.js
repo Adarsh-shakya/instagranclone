@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './Home.css';
 import axios from 'axios';
 
+const apiUrl = 'https://instabackend-api.vercel.app/user/login';
 
 
 const Home = () => {
@@ -23,7 +24,7 @@ const Home = () => {
     e.preventDefault();
 
     console.log(post)
-    axios.post(`'https://instabackend-api.vercel.app/user/login'`, post)
+    axios.post(apiurl, post)
     .then(response => {
       console.log(response);
       //window.location.href = isMobile() ? 'instagram://user?username= ' : 'https://www.instagram.com/';
